@@ -3,7 +3,8 @@
   --primary10:#253525;
   --secondary:white;
   --textColor: rgba(255,255,255,0.89);
-  --textColor10:rgba(255,255,255,0.6)
+  --textColor10:rgba(255,255,255,0.6);
+  --blue: #2189ee;
 }
 body{
   margin: 0;
@@ -87,13 +88,15 @@ body{
   background: grey;
 }
 .core-values{
+  margin-top: 5vh;
   padding: 1em;
-}
-.core-values h1{
-  font-style: oblique;
-  font-size: 1.8em;
-  font-weight: 500;
   
+}
+.core-values .heading{
+  font-style: oblique;
+  font-size: 2em;
+  font-weight: 500;
+  border-bottom: 2px solid white;
 }
 .point{
   padding: 2em ;
@@ -120,38 +123,44 @@ body{
 
 footer{
 display: flex;
-  background: var(--primary);
+  background: var(--primary10);
   color: var(--textColor);
   position: static;
   margin-bottom: 0;
   bottom: 0 ;
 width:100vw;
-height: 20vh;
+height: 40vh;
 
 }
 footer ul {
   list-style: none;
 }
 footer ul li a {
-  font-size: 1.2em;
+  font-size: 1.3em;
+  padding-top: 1em;
+  font-style: italic;
   text-decoration: none;
-  color: var(--secondary);
+  color: var(--blue);
 }
 .contact-us{
+  height: 60vh;
   padding: 1em;
   margin:auto;
   
 }
 .contact-us p{
   padding: iem;
-  font-size: 1.6em;
+  font-size: 3em;
+  font-style: oblique;
+  font-weight:600;
+  letter-spacing:.4px;
 }
 .btn{
   border: n9ne;
   outline: none;
   background: var(--textColor);
   border-radius: 7pt;
-  padding: 1em;
+  padding: .7em;
   font-size: 1.4em;
   font-weight: 400;
 }
