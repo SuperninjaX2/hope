@@ -1,56 +1,19 @@
-:root{
-  --primary:#121212;
-  --primary10:#253525;
-  --secondary:white;
-  --textColor: rgba(255,255,255,0.89);
-  --textColor10:rgba(255,255,255,0.6);
-  --blue: #2189ee;
-}
-body{
-  margin: 0;
-  padding: 0;
-  font-family: Sans-Serif;
-  background: var(--primary);
-  color: var(--textColor);
-}
-/* General styles */
-
-
-/* Header styles */
-.header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between; /* Align items at the start and end */
-  align-items: center; /* Center items vertically */
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 7vh;
-  background: transparent;
-  backdrop-filter:blur(14px);
-  color: var(--secondary);
-  padding: 0 20px; /* Add padding to the sides */
-}
-
-/* Brand styles */
-.brand {
-  display: flex;
-  align-items: center; /* Center items vertically */
-}
-
-.logo {
-  width: 40px; /* Adjust size as needed */
-  height: 40px; /* Adjust size as needed */
-  margin-right: 10px; /* Add spacing between logo and brand name */
-}
 
 .brand-name {
   font-weight: 500;
   
   font-size: 1.7em; /* Adjust font size */
 }
-
+#menuBtn{
+  margin-lwft:auto;
+  color: white;
+}
+.open{
+  content: "m";
+}
+.close{
+  content: "X";
+}
 /* Navigation styles *
 .nav-item:hover {
   text-decoration: underline; /* Add underline on hover */
@@ -149,30 +112,9 @@ footer ul li a {
   
 }
 .contact-us p{
-  padding: iem;
+  padding: 1em;
   font-size: 3em;
   font-style: oblique;
   font-weight:600;
   letter-spacing:.4px;
 }
-.btn{
-  border: n9ne;
-  outline: none;
-  background: var(--textColor);
-  border-radius: 7pt;
-  padding: .7em;
-  font-size: 1.4em;
-  font-weight: 400;
-}
-.btn-dark{
-  background: var(--primary);
-  color:white;
-  border:  1.5px solid var(--textColor10);
-}
-.btn-dark:hover{
-  background: #fff;
-  color: black;
-}
-
-
-

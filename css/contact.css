@@ -1,0 +1,39 @@
+.address h3{
+  padding: ;
+  font-weight: 500;
+  font-size: 2.8em;
+}
+
+.address{
+  width: 90vw ;
+  min-height: 80vh;
+  margin: auto;
+}
+.address p{
+  font-size: 1em;
+  color: var(--textcolor10);
+  font-style: italic;
+    padding-left: 4vw;
+}
+.map{
+  width: 80vw;
+  height: 40vh;
+  padding: 1em;
+  border-radius: 8pt;
+  margin: auto;
+  background: grey;
+}
+.social-media{
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.social-media h3{
+  font-size: 1.8em;
+}
+.social-name{
+  font-size: 1.4em;
+  font-style: oblique;
+}
